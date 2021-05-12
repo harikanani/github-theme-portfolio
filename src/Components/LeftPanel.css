@@ -1,0 +1,52 @@
+.leftPanel {
+    color: #ADBAC7;
+    padding: 10px 60px;
+    background-color: #22272E;
+}
+
+.profileText h5 {
+    color: #5C6671;
+}
+
+.github-button {
+    padding: 10px 70px;
+    /* width: 150px; */
+    border-radius: 50px;
+    border: none;
+    background-color: #cdd9e5;
+    transition: 0.5s;
+}
+
+.github-button:hover {
+    background-color: #444C56;
+    color: #ADBAC7;
+}
+
+.socials {
+    justify-content: center;
+}
+
+.profile {
+    display: flex;
+}
+
+.profileText {
+    text-align: center;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 30px auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .profile {
+        flex-direction: column;
+    }
+}

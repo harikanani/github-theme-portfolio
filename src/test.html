@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mainDiv {
+            width: 100vw;
+            height: 100vh;
+            background-color: aqua;
+        }
+        p {
+            text-align: center;
+        }
+        .parent {
+            width: 80vw;
+            height: auto;
+            margin: auto;
+            display: flex;
+            justify-content: space-around;
+        }
+        .child {
+            width: 200px;
+            height: 200px;
+        }
+
+        .child:first-child {
+            background-color: blueviolet;
+        }
+
+        .child:last-child {
+            background-color: green;
+        }
+
+        @media (max-width: 768px) {
+            .mainDiv {
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="mainDiv">
+        <div class="parent">
+            <div class="child">
+                <p>Harikrushn</p>
+            </div>
+            <div class="child">
+                <p>Kanani</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
